@@ -1,9 +1,9 @@
 # Frontend Projects 
 
 
-This repository contains a progressive collection of *24 frontend development projects, ranging from simple layouts to advanced interactive UIs — all built using **HTML, CSS, and JavaScript*.
+This repository contains a progressive collection of 24+ frontend development projects, ranging from very simple layouts to advanced interactive UIs — all built using **HTML, CSS, and JavaScript*.
 
-Each project is organized into its own folder with a dedicated README.md, clean codebase, and commit history. The goal is to simulate real-world development workflows using Git branches, pull requests, and code reviews — making this repo a practical learning ground for both frontend skills and team-based collaboration.
+Each project is organized into its own folder with a dedicated README.md, clean codebase, and commit history. my goal is to simulate real-world development workflows using Git branches, pull requests, and code reviews, making this repo a practical learning ground for both frontend skills and team-based collaboration.
 
 # Tech Stack
 
@@ -11,13 +11,14 @@ Each project is organized into its own folder with a dedicated README.md, clean 
 - CSS3 (Flexbox, Grid, Animations)
 - JavaScript (DOM, Events, Components)
 - Git & GitHub (branching, pull requests, reviews)
+- React
 
 # Objectives
 
 - Practice frontend fundamentals with hands-on projects
 - Apply Git workflows used in real development teams
-- Build a solid and reviewable project history for your portfolio
-- Learn and grow incrementally — each project builds on the last
+- Build a solid and reviewable project history for my portfolio
+- Learn and grow incrementally, each project builds on the last
 
 # Collaboration
 
