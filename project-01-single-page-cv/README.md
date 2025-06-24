@@ -12,3 +12,5 @@ Single-page layout with sections for education, skills, and career history.
 SEO meta tags in the head section.
 OG tags for better social media sharing.
 A favicon linked in the head section.
+
+[Link to project on Roadmap.sh] (https://roadmap.sh/projects/single-page-cv)
