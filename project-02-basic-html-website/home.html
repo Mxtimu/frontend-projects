@@ -56,7 +56,7 @@
         .table{
             width: 100%;
             height: 100%;
-            border: 1px solid black;
+            border: 2px solid black;
             display: flex;
             
 
@@ -64,18 +64,42 @@
         }
         .column-projects{
            width: 25%;
-           height: 100%;
+           height: auto;
            border: 2px solid rgb(0, 0, 0);
            text-align: center;
            
             
         }
-        ul, li{
-            list-style-type: none;
-        }
+   
+        
         hr{
             width: 100%;
             border: 2px solid black;
+        }
+        .column-work-experience{
+           width: 50%;
+           height:auto; /*this removed the over flow error i had*/
+           border: 2px solid rgb(0, 0, 0);
+           text-align: left;
+        }
+        .column-education{
+           width: 25%;
+           height:auto; /*this removed the over flow error i had*/
+           border: 2px solid rgb(0, 0, 0);
+           text-align:left; 
+           
+         
+            
+          
+        }
+        ul, li {
+            list-style-type: none;
+        }
+        
+
+         ul li::before {
+            content: "- ";
+            margin-right: 4px;
         }
        
 
@@ -119,6 +143,39 @@
             <p>Countdown Timer</p>
             <hr>
             <p>Product Upcoming Page</p>
+        </div>
+
+        <div class="column-work-experience">
+            <h2 style="margin-left: 1em;">Work Experience</h2>
+            <h4 style="margin-left: 2em;">Conservtel, Johannesburg - Frontend Developer</h4>
+            <p style="margin-left: 2em;">Designed a company website UI using Figma, applying modern UX principals</p>
+            <p style="margin-left: 2em;">LinkedIn Account: <a href="url">https://www.linkedin.com/in/matimu-ngobeni-6b0b0b242/</a> </p>
+            <hr>
+            <h2 style="margin-left: 1em;">Open Source work:</h2>
+            
+            <p style="margin-left: 2em;">I did programming projects under Umuzi where I used Python</p>
+            <p style="margin-left: 2em;">I helped a friend design and build their Full Stack web application </p>
+            
+        </div>
+
+        <div class="column-education">
+            <h2 style="margin-left: 2em;">Education: IU International University Of applied Science</h2>
+            <h4 style="margin-left: 3em;">Weighted average overall: 2,5/2,5</h4> 
+            
+            <h2 style="margin-left: 2em;">Courses I took so far:</h2>
+            <ul>
+                <li>Data Structures and Java Class Library</li>
+                <li>Mathematics I</li>
+                <li>Object-oriented Programming with Java</li>
+                <li>Introduction to Academic Work</li>
+                <li>Introduction to Computer Science</li>
+                <li>Computer Architecture and Operating Systems</li>
+                <li>Web Application Development</li>
+                <li>Language Training German</li>
+                <li>Algorithms, Data Structures, and Programming Languages</li>
+            </ul>
+            
+            
         </div>
 
     </div>
