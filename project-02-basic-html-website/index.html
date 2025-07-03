@@ -4,107 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        
-         .top-header{
-            display: flex;
-            justify-content: space-between;
-            padding: 10px 20px;
-            align-items: flex-start; /* -> this is not really needed but it is good to have for readability and for the 
-            reader to understand*/
-           
-        }
-        .navbar {
-           text-decoration: none;
-           margin-right: 20px;
-           align-self: center; /*This was used to align the Links with my name */
-        
-            
-        }
-        a{
-            color: black;
-        }
-        .left-section{
-            display: flex;
-            align-items: center;
-            gap: 30px;
-        }
-        .left-section img{
-            width: 50px;
-            height: 50px;
-            border-radius: 15%;
-        }
-        .role{
-            display: flex;
-            align-items: center; /* this is to align the div in the center in the main axis (vertically) */
-            justify-self: center; /*This is to align the div in the center in the cross axis (horizontally)*/
-            font-size: larger;
-            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; /*couldnt get the exact font*/
-        }
-        /*.role-div{
-            display: flex;
-        }
-        table, th, td {
-            border: 3px solid black;
-            border-collapse: collapse;
-        } -->
-        body {
-  
-            margin: 0;
-            padding: 0;
-        } */
-        .table{
-            width: 100%;
-            height: 100%;
-            border: 2px solid black;
-            display: flex;
-            
-
-
-        }
-        .column-projects{
-           width: 25%;
-           height: auto;
-           border: 2px solid rgb(0, 0, 0);
-           text-align: center;
-           
-            
-        }
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
    
-        
-        hr{
-            width: 100%;
-            border: 2px solid black;
-        }
-        .column-work-experience{
-           width: 50%;
-           height:auto; /*this removed the over flow error i had*/
-           border: 2px solid rgb(0, 0, 0);
-           text-align: left;
-        }
-        .column-education{
-           width: 25%;
-           height:auto; /*this removed the over flow error i had*/
-           border: 2px solid rgb(0, 0, 0);
-           text-align:left; 
-           
-         
-            
-          
-        }
-        ul, li {
-            list-style-type: none;
-        }
-        
-
-         ul li::before {
-            content: "- ";
-            margin-right: 4px;
-        }
-       
-
-       
-    </style>
 </head>
 <body>
     <header class="top-header">
@@ -114,7 +18,7 @@
          </div>
         <nav class="navbar">
             <a href="./home.html">Home</a>  /
-            <a href="./project.html"> Projects </a> /
+            <a href="./projects.html"> Projects </a> /
             <a href="./articles.html"> Articles</a> /
             <a href="./contact.html"> Contact</a>
         </nav>
@@ -178,9 +82,42 @@
             
         </div>
 
+
     </div>
+    </section>
+
+    <section>
+        <h2 style="margin-left: 4em;">Reviews from my Teachers</h2>
+        <div class="reviews">
+            <div class="reviews-people">
+                <p>Matimu is  a dedicated computer science student who enjoys problem-solving with Java, JavaScript  and Python.</p>
+                <p class="bottom-text">Jane Doe <br>
+                    Professor : Mathematics
+                </p>
+                
+            </div>
+
+            <div class="reviews-people">
+                <p>You prefer clear, step-by-step explanations and practical coding exercises.</p>
+                <p class="bottom-text">Bruce Wayne <br>
+                    Professor : Requirements Engineering
+                </p>
+               
+            </div>
+
+            <div class="reviews-people">
+                <p>You value structure, simplicity, and using your skills to create useful digital projects.</p>
+                 <p class="bottom-text">Alex Wolf <br>
+                    Professor : Algorithms
+                </p>
+               
+            </div>
+
+        </div>
+        <p class="rights-text">
+            &#169; all rights reserved 2025
+        </p>
     </section>
     
 </body>
 </html>
-
