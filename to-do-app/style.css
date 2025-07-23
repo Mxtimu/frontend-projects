@@ -55,3 +55,19 @@ h1 {
 #addTaskBtn:hover {
     background-color: #45a049;
 }
+
+
+/* Task list styling */
+#taskList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Individual task item styling */
+.task-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
