@@ -71,3 +71,34 @@ h1 {
     padding: 10px;
     border-bottom: 1px solid #eee;
 }
+
+/* Completed task style */
+.task-item.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Task text styling */
+.task-text {
+    flex: 1;
+    margin-left: 10px;
+}
+
+/* Button styling */
+.task-btn {
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Complete button */
+.complete-btn {
+    background-color: #2196F3;
+    color: white;
+}
+
+.complete-btn:hover {
+    background-color: #0b7dda;
+}
