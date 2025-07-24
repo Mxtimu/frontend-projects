@@ -60,4 +60,23 @@ document.addEventListener('DOMContentLoaded', function() {
             taskList.appendChild(taskItem);
         });
     }
+
+    // Function to update task count
+    function updateTaskCount() {
+        const remainingTasks = tasks.filter(task => !task.completed).length;
+        taskCount.textContent = remainingTasks;
+    }
+    
+    // Function to toggle task completion
+    function toggleTaskCompletion(taskId) {
+        tasks = tasks.map(task => {
+            if (task.id === taskId) {
+                return { ...task, completed: !task.completed };
+            }
+            return task;
+        });
+        
+        renderTasks();
+        updateTaskCount();
+    }
 });
