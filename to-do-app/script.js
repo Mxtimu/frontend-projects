@@ -79,4 +79,23 @@ document.addEventListener('DOMContentLoaded', function() {
         renderTasks();
         updateTaskCount();
     }
+
+    // Function to delete a task
+    function deleteTask(taskId) {
+        tasks = tasks.filter(task => task.id !== taskId);
+        renderTasks();
+        updateTaskCount();
+    }
+    
+    // Event listeners
+    
+    // Add task when button is clicked
+    addTaskBtn.addEventListener('click', addTask);
+    
+    // Add task when Enter key is pressed
+    taskInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            addTask();
+        }
+    });
 });
