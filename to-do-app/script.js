@@ -106,5 +106,14 @@ document.addEventListener('DOMContentLoaded', function() {
             const taskId = parseInt(e.target.getAttribute('data-id'));
             toggleTaskCompletion(taskId);
         }
+         // Delete task
+        if (e.target.classList.contains('delete-btn')) {
+            const taskId = parseInt(e.target.getAttribute('data-id'));
+            deleteTask(taskId);
+        }
+    });
+    
+    // Initialize
+    updateTaskCount();
         
 });
