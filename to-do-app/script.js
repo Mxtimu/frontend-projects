@@ -98,4 +98,13 @@ document.addEventListener('DOMContentLoaded', function() {
             addTask();
         }
     });
+
+    // Handle clicks on task list (event delegation)
+    taskList.addEventListener('click', function(e) {
+        // Complete task
+        if (e.target.classList.contains('complete-btn') || e.target.classList.contains('complete-checkbox')) {
+            const taskId = parseInt(e.target.getAttribute('data-id'));
+            toggleTaskCompletion(taskId);
+        }
+        
 });
