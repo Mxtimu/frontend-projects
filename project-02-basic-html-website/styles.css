@@ -124,7 +124,7 @@ body {
     /* CSS rules for screens with a maximum width of 768px (e.g., phones and tablets in portrait) */
     body {
         font-family: Arial, sans-serif;
-        margin: 20px;
+        /* margin: 20px; */
         background-color: #f9f9f9;
         }
         .top-header{
@@ -165,11 +165,64 @@ body {
            border: 2px solid rgb(0, 0, 0);
            text-align: center;
         }
+        hr{
+            width: 100%;
+            border: 2px solid black;
+        }
+        .column-work-experience{
+           width: 100%;
+           height:auto; /*this removed the over flow error i had*/
+           border: 2px solid rgb(0, 0, 0);
+           text-align: left;
+        }
+        .WE-h2{
+          justify-self: center;
+          
+        }
+        .column-education{
+           width: 100%;
+           height:auto; /*this removed the over flow error i had*/
+           border: 2px solid rgb(0, 0, 0);
+           text-align:left; 
+        }
+        .reviews{
+          display: grid;
+          justify-content:space-between;
+          justify-self: center;
+          gap:2em ;
+          width:auto;
+          height: auto;
+
+        }
+        .reviews-people{
+        border-radius: 25px;
+        border: 2px solid #000000;
+        padding: 20px;
+        width: 400px;
+        height: 200px;
+        }  
+        .reviews-people p{
+          text-align:left;
+          gap: 2em;
+        }
+         
+            
+          
+        }
+        /* ul, li {
+            list-style-type: none;
+        }
+        
+
+         ul li::before {
+            content: "- ";
+            margin-right: 4px;
+        } */
 
 
        
         
-  }
+  
        /*Project.html styles*/
  th, td {
     border: 1px solid black;
