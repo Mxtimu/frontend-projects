@@ -120,23 +120,28 @@ body {
             font-size: larger;
             font-weight: bold;
         }
-        @media screen and (max-width: 412px){
+        @media screen and (max-width: 768px){
     /* CSS rules for screens with a maximum width of 768px (e.g., phones and tablets in portrait) */
     body {
         font-family: Arial, sans-serif;
-        margin: 20px;
+        /* margin: 20px; */
         background-color: #f9f9f9;
         }
-        .top-header
+        .top-header{
+          display: grid;
+          justify-content: center ;
+        }
         .left-section{
           display: grid;
           align-items: center;
+          justify-content: center;
           gap: 30px;
         }
         .left-section img{
           width: 50px;
             height: 50px;
             border-radius: 15%;
+            justify-self: center ;
           
         }
         .navbar{
@@ -148,9 +153,76 @@ body {
             color: black;
         }
 
+        .table{
+          width: 100%;
+            height: 100%;
+            border: 2px solid black;
+            display: grid;
+        }
+        .column-projects{
+           width: 100%;
+           height: auto;
+           border: 2px solid rgb(0, 0, 0);
+           text-align: center;
+        }
+        hr{
+            width: 100%;
+            border: 2px solid black;
+        }
+        .column-work-experience{
+           width: 100%;
+           height:auto; /*this removed the over flow error i had*/
+           border: 2px solid rgb(0, 0, 0);
+           text-align: left;
+        }
+        .WE-h2{
+          justify-self: center;
+          
+        }
+        .column-education{
+           width: 100%;
+           height:auto; /*this removed the over flow error i had*/
+           border: 2px solid rgb(0, 0, 0);
+           text-align:left; 
+        }
+        .reviews{
+          display: grid;
+          justify-content:space-between;
+          justify-self: center;
+          gap:2em ;
+          width:auto;
+          height: auto;
+
+        }
+        .reviews-people{
+        border-radius: 25px;
+        border: 2px solid #000000;
+        padding: 20px;
+        width: 400px;
+        height: 200px;
+        }  
+        .reviews-people p{
+          text-align:left;
+          gap: 2em;
+        }
+         
+            
+          
+        }
+        /* ul, li {
+            list-style-type: none;
+        }
+        
+
+         ul li::before {
+            content: "- ";
+            margin-right: 4px;
+        } */
+
+
        
         
-  }
+  
        /*Project.html styles*/
  th, td {
     border: 1px solid black;
