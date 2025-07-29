@@ -120,17 +120,21 @@ body {
             font-size: larger;
             font-weight: bold;
         }
-        @media screen and (max-width: 412px){
+        @media screen and (max-width: 768px){
     /* CSS rules for screens with a maximum width of 768px (e.g., phones and tablets in portrait) */
     body {
         font-family: Arial, sans-serif;
         margin: 20px;
         background-color: #f9f9f9;
         }
-        .top-header
+        .top-header{
+          display: grid;
+          justify-content: center ;
+        }
         .left-section{
           display: grid;
           align-items: center;
+          justify-content: center;
           gap: 30px;
         }
         .left-section img{
