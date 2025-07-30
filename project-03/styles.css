@@ -1,0 +1,33 @@
+/*  this Applies styles to EVERY element on the page*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  this tag  only Styles the body element */
+body {
+   
+    font-family: 'Arial', sans-serif;
+    color: #0c0909;
+    background-color: #D3D3D3;
+  
+}
+
+.top-section{
+    display: grid;
+    gap: 2em;
+
+ 
+
+}
+.heading-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.sub-heading{
+    display: flex;
+    justify-content: center;
+    color: #696969;
+    font-size: small;
+}
