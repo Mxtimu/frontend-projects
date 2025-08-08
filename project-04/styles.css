@@ -53,3 +53,15 @@ body {
 .name-and-job{
     display: grid;
 }
+.container-2{
+    width: 50%;
+    height: 50%;
+
+}
+.text{
+    display: flex;
+}
+.below-text{
+    display: flex;
+}
+/* No need for the name and job attribute  */
