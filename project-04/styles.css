@@ -13,12 +13,16 @@ body {
 } 
 .container-section-1{
     display: grid;
-    justify-content: center ;
+    /* justify-content: center ;  this forces everything to the middle of the page
+	so for now its commented out to see if i can control the speech 
+	bubble exactly how i want */ 
     border: 5px solid black;
 
 }
 .container1{
     display: grid;
+	justify-content: start;
+	padding-left: 15px;
 }
 div.bubble{
 	position: relative;
@@ -58,20 +62,32 @@ div.speech:after {
 
 .details{
     display: flex;
-    justify-content: center;
-    align-content: space-around;
+	
+
+    
 }
 .picture img{
-    width: 100px;
-    height: 100px;
+    width: 95px;
+    height: 95px;
     border-radius: 50px;
-}
-.name-role{
-    display: grid;
-    
+	margin-right: 1.2em;
 
 }
-.name{
-    
+.name-role{
+	margin-top: 2em;
+	
+	
 }
+.name-role h3{
+	font-size: 18px;
+	margin: 0;
+	margin-bottom: 2px;
+	
+
+}
+.name-role p{
+	font-size: 14px;
+	margin: 0;
+}
+
 
