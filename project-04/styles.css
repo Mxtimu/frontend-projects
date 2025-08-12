@@ -30,7 +30,8 @@ div.bubble{
 	text-align: center;
 	line-height: 1.4em;
 	margin: 40px auto;
-	background-color: #fff;
+	background-color:#323232 ;
+	color: #EFEEEA;
 	border: 8px solid #333;
 	border-radius: 30px;
 	font-family: sans-serif;
@@ -47,21 +48,22 @@ div.bubble:after {
 }
 
 div.speech:before {
-	left: 30px;
+	left: 50px;
 	bottom: -50px;
 	border: 25px solid;
 	border-color: #333 transparent transparent #333;
 }
 
 div.speech:after {
-	left: 38px;
+	left: 50px;
 	bottom: -30px;
 	border: 15px solid;
-	border-color: #fff transparent transparent #fff;
+	border-color: #323232 transparent transparent #323232;
 }
 
 .details{
     display: flex;
+	margin-top: 1rem;
 	
 
     
@@ -72,6 +74,7 @@ div.speech:after {
     border-radius: 50px;
 	margin-right: 1.2em;
 
+  
 }
 .name-role{
 	margin-top: 2em;
