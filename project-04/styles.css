@@ -11,18 +11,30 @@ body {
     background-color:lightgray;
   
 } 
+section{
+	display: flex;
+	height: 100%;
+	height: 100%;
+}
 .container-section-1{
     display: flex;
     /* justify-content: center ;  this forces everything to the middle of the page
 	so for now its commented out to see if i can control the speech 
 	bubble exactly how i want */ 
-    border: 5px solid black;
+    /* border: 5px solid black; */
+	width: 100%;
+	height: 75%;
+	/* justify-content: space-between; */
+	
+
 
 }
 .container1{
     display: grid;
-	justify-content: start;
+	justify-content: center;
 	padding-left: 15px;
+	width: 100%;
+	/* margin-right: 5px; */
 }
 div.bubble{
 	position: relative;
@@ -92,5 +104,30 @@ div.speech:after {
 	font-size: 14px;
 	margin: 0;
 }
+.container-section-2{
+	display: flex;
+    /* justify-content: center ;  this forces everything to the middle of the page
+	so for now its commented out to see if i can control the speech 
+	bubble exactly how i want */ 
+    /* border: 5px solid black; */
+	width: 100%;
+	height: 100%;
+	margin-top: 50px;
+	/* justify-content: space-between; */
+	
+}
+.container2{
+	display: grid;
+	border:  5px solid black;
+	border-radius: 50px;
+	width: 30em;
+	height: 25em;
+	justify-content: center;
 
+}
+.container-text{
+	display: flex;
+	margin: 70px;
+	align-items: center;
+}
 
