@@ -12,7 +12,7 @@ body {
   
 } 
 .container-section-1{
-    display: grid;
+    display: flex;
     /* justify-content: center ;  this forces everything to the middle of the page
 	so for now its commented out to see if i can control the speech 
 	bubble exactly how i want */ 
