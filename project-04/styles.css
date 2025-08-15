@@ -159,12 +159,9 @@ div.speech:after {
 	height: 350px;
 	border-radius: 50px;
 }
-.picture-container{
-	/* width: 30%; */
-}
-.review-stars img{
-	width: 100px;
-	height: 100px;
+
+.review-stars {
+	display: flex;
 	
 }
 
@@ -175,7 +172,26 @@ div.speech:after {
 	color: white;
 	background-color: #0c0909;
 	border-radius: 50px;
-	margin-left: 20px;
+	margin-left: 20px; 
+	justify-content:center;
+
 	
 
+}
+
+.stars {
+  margin-top: 40px;
+	width: 25px;  
+  height: 25px;
+  aspect-ratio: 1;
+  background: #F8CA00;
+  clip-path: polygon(50% 0,
+    calc(50%*(1 + sin(.4turn))) calc(50%*(1 - cos(.4turn))),
+    calc(50%*(1 - sin(.2turn))) calc(50%*(1 - cos(.2turn))),
+    calc(50%*(1 + sin(.2turn))) calc(50%*(1 - cos(.2turn))),
+    calc(50%*(1 - sin(.4turn))) calc(50%*(1 - cos(.4turn))) 
+   ); 
+  /* or more simple
+  clip-path: polygon(50% 0,79% 90%,2% 35%,98% 35%,21% 90%); 
+   */
 }
