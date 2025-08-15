@@ -5,24 +5,38 @@
 }
 /*  this tag  only Styles the body element */
 body {
-   
+	margin: 20px;
     font-family: 'Arial', sans-serif;
     color: #0c0909;
     background-color:lightgray;
   
 } 
+.section-1{
+	display: flex;
+	height: 100%;
+	height: 100%;
+}
 .container-section-1{
-    display: grid;
+    display: flex;
     /* justify-content: center ;  this forces everything to the middle of the page
 	so for now its commented out to see if i can control the speech 
 	bubble exactly how i want */ 
-    border: 5px solid black;
+    /* border: 5px solid black; */
+	width: 100%;
+	height: 75%;
+	margin-left: 50px;
+	
+	/* justify-content: space-between; */
+	
+
 
 }
 .container1{
     display: grid;
-	justify-content: start;
+	justify-content: center;
 	padding-left: 15px;
+	width: 100%;
+	/* margin-right: 5px; */
 }
 div.bubble{
 	position: relative;
@@ -92,5 +106,103 @@ div.speech:after {
 	font-size: 14px;
 	margin: 0;
 }
+.container-section-2{
+	display: flex;
+    /* justify-content: center ;  this forces everything to the middle of the page
+	so for now its commented out to see if i can control the speech 
+	bubble exactly how i want */ 
+    /* border: 5px solid black; */
+	width: 100%;
+	height: 100%;
+	margin-top: 50px;
+	margin-left: 170px;
+	/* justify-content: space-between; */
+	
+}
+.container2{
+	display: grid;
+	border:  5px solid black;
+	border-radius: 50px;
+	width: 350px;
+	height: 350px;
+	justify-content: center;
 
+}
+.container-text{
+	display: flex;
+	/* margin: 65px; */
+	align-items: center;
+	/* text-align: center; */
+	
+	font-size: larger;
+	text-align: justify;
+	
+}
 
+/* middle section of the testimonials  */
+.middle-section{
+	margin-top: 10%;
+}
+.outer-container{
+	display: flex;
+	width: 100%;
+	
+	margin-left: 50px;
+	/* margin-right: 50px; */
+	/* padding-left: 15px; */
+	
+}
+
+.picture-container img{
+	/* display: flex; */
+	width: 350px;
+	height: 350px;
+	border-radius: 50px;
+}
+
+.review-stars {
+	display: flex;
+	
+}
+
+.review-container{
+	display: grid;
+	height: 350px;
+	width:550px ;
+	color: #EFEEEA;
+	background-color: #323232;
+	border-radius: 50px;
+	margin-left: 20px; 
+	justify-content:center;
+
+	
+
+}
+
+.stars {
+  margin-top: 40px;
+	width: 25px;  
+  height: 25px;
+  aspect-ratio: 1;
+  background: #F8CA00;
+  clip-path: polygon(50% 0,
+    calc(50%*(1 + sin(.4turn))) calc(50%*(1 - cos(.4turn))),
+    calc(50%*(1 - sin(.2turn))) calc(50%*(1 - cos(.2turn))),
+    calc(50%*(1 + sin(.2turn))) calc(50%*(1 - cos(.2turn))),
+    calc(50%*(1 - sin(.4turn))) calc(50%*(1 - cos(.4turn))) 
+   ); 
+  /* or more simple
+  clip-path: polygon(50% 0,79% 90%,2% 35%,98% 35%,21% 90%); 
+   */
+}
+
+.text-container{
+	margin-bottom: 50px;
+	font-size: larger;
+	text-align: justify;
+	line-height: 1.5;
+}
+
+.name-role-2 p{
+	color: darkgray;
+}
