@@ -169,8 +169,8 @@ div.speech:after {
 	display: grid;
 	height: 350px;
 	width:550px ;
-	color: white;
-	background-color: #0c0909;
+	color: #EFEEEA;
+	background-color: #323232;
 	border-radius: 50px;
 	margin-left: 20px; 
 	justify-content:center;
@@ -194,4 +194,15 @@ div.speech:after {
   /* or more simple
   clip-path: polygon(50% 0,79% 90%,2% 35%,98% 35%,21% 90%); 
    */
+}
+
+.text-container{
+	margin-bottom: 50px;
+	font-size: larger;
+	text-align: justify;
+	line-height: 1.5;
+}
+
+.name-role-2 p{
+	color: darkgray;
 }
