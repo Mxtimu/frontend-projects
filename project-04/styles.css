@@ -120,14 +120,19 @@ div.speech:after {
 	display: grid;
 	border:  5px solid black;
 	border-radius: 50px;
-	width: 30em;
-	height: 25em;
+	width: 350px;
+	height: 350px;
 	justify-content: center;
 
 }
 .container-text{
 	display: flex;
-	margin: 70px;
+	/* margin: 65px; */
 	align-items: center;
+	text-align: center;
+	
+	font-size: larger;
+	text-align: justify;
+	
 }
 
