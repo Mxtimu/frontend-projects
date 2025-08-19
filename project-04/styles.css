@@ -217,6 +217,7 @@ div.speech:after {
 	justify-content: center;
 	align-items: center;
 	border-radius: 25px;
+	margin-left: 50px;
 }
 .bottom-slider{
 	display: flex;
@@ -257,9 +258,16 @@ div.speech:after {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
+	opacity: 0.4;
+	margin: 10px;
 }
 .bottom-image{
-	width: 100px;
-	height: 100px;
+	width: 120px;
+	height: 120px;
 	border-radius: 50%;
+}
+.bottom-name{
+	display: flex;
+	justify-content: center;
+	
 }
