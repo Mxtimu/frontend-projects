@@ -83,8 +83,8 @@ div.speech:after {
     
 }
 .picture img{
-    width: 95px;
-    height: 95px;
+    width: 120px;
+    height: 120px;
     border-radius: 50px;
 	margin-right: 1.2em;
 
@@ -115,7 +115,7 @@ div.speech:after {
 	width: 100%;
 	height: 100%;
 	margin-top: 50px;
-	margin-left: 170px;
+	margin-left: 90px;
 	/* justify-content: space-between; */
 	
 }
@@ -205,4 +205,75 @@ div.speech:after {
 
 .name-role-2 p{
 	color: darkgray;
+}
+
+/* bottom section of the testimonials */
+.bottom-section{
+	margin-top: 10%;
+}
+.bottom-container{
+	display: grid;
+	border: 5px solid black;
+	justify-content: center;
+	align-items: center;
+	border-radius: 25px;
+	margin-left: 50px;
+}
+.bottom-slider{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.bottom-text{
+	display: flex;
+	justify-content: center;
+	text-align: justify;
+	line-height: 1.7;
+	font-weight:540;
+	
+
+}
+.left-chevron{
+	 --s: 50px; /* control the shape (can be percentage) */
+
+	height: 220px;
+	aspect-ratio: 3/5;
+	clip-path: polygon(100% 0,calc(100% - var(--s)) 0,0 50%,calc(100% - var(--s)) 100%,100% 100%,var(--s) 50%);
+	background: black;
+	transform: scale(0.1); /* 60% of original size */
+  	transform-origin: center;
+}
+.right-chevron{
+	--s: 50px; /* control the shape (can be percentage) */
+
+  height: 220px;
+  aspect-ratio: 3/5;
+  clip-path: polygon(0 0,var(--s) 0,100% 50%,var(--s) 100%,0 100%,calc(100% - var(--s)) 50%);
+  background: black;
+  transform: scale(0.1); /* 60% of original size */
+  transform-origin: center;
+}
+.slider-profiles{
+	display: flex;
+}
+.fading-image{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	opacity: 0.4;
+	margin: 10px;
+}
+.bottom-image{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+.bottom-name{
+	display: flex;
+	justify-content: center;
+	
+}
+.profile-name{
+	display: grid;
 }
