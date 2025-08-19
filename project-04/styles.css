@@ -215,14 +215,19 @@ div.speech:after {
 	display: grid;
 	border: 5px solid black;
 	justify-content: center;
+	align-items: center;
 	border-radius: 25px;
 }
 .bottom-slider{
 	display: flex;
 	justify-content: center;
+	align-items: center;
 
 }
 .bottom-text{
+	text-align: center;
+	line-height: 1.7;
+	font-weight:540;
 
 }
 .left-chevron{
@@ -231,7 +236,9 @@ div.speech:after {
 	height: 220px;
 	aspect-ratio: 3/5;
 	clip-path: polygon(100% 0,calc(100% - var(--s)) 0,0 50%,calc(100% - var(--s)) 100%,100% 100%,var(--s) 50%);
-	background: #5E9FA3;
+	background: black;
+	transform: scale(0.1); /* 60% of original size */
+  	transform-origin: center;
 }
 .right-chevron{
 	--s: 50px; /* control the shape (can be percentage) */
@@ -239,18 +246,20 @@ div.speech:after {
   height: 220px;
   aspect-ratio: 3/5;
   clip-path: polygon(0 0,var(--s) 0,100% 50%,var(--s) 100%,0 100%,calc(100% - var(--s)) 50%);
-  background: #5E9FA3;
+  background: black;
+  transform: scale(0.1); /* 60% of original size */
+  transform-origin: center;
 }
 .slider-profiles{
 	display: flex;
 }
 .fading-image{
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	border-radius: 50%;
 }
 .bottom-image{
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	border-radius: 50%;
 }
