@@ -226,9 +226,12 @@ div.speech:after {
 
 }
 .bottom-text{
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	text-align: justify;
 	line-height: 1.7;
 	font-weight:540;
+	
 
 }
 .left-chevron{
@@ -270,4 +273,7 @@ div.speech:after {
 	display: flex;
 	justify-content: center;
 	
+}
+.profile-name{
+	display: grid;
 }
